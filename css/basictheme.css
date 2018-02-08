@@ -1,0 +1,33 @@
+html,
+body {
+	margin: 0;
+	color: #333;
+	background: #eee;	
+}
+
+body {padding: 20px; }
+
+.carousel { background: #000;}
+.carousel .item { height: 400px; overflow: hidden; }
+.carousel .item img {width: 100%; height: auto; }
+.carousel-caption a { color: #fff; }
+
+.blog-element { display: block; height: 200px; overflow: hidden; 
+	background-position: center center; background-repeat: no-repeat; background-size: cover; }
+.blog-element a {
+	color: #fff; text-shadow: 0px 1px 3px rgba(0,0,0,.5);
+}
+
+
+.second-row-padding:nth-child(2) {padding-right: 0px;}
+.second-row-padding:nth-child(3) {padding-left: 0px;}
+
+.third-row-padding {padding: 0px;}
+.third-row-padding:nth-child(4) {padding-left: 15px;}
+.third-row-padding:last-child {padding-right: 15px;}
+
+div.searchblock {
+	clear: both;
+	height: 300px;
+	overflow: hidden;
+}
